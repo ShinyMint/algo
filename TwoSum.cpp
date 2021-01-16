@@ -1,6 +1,7 @@
 /*
 Problem: LeetCode - Two Sum(https://leetcode.com/problems/two-sum/)
 Date: 01/13/2021
+Written by: Hayoon Park
 */
 class Solution {
 public:
