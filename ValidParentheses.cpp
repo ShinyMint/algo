@@ -31,7 +31,7 @@ public:
                         return false;
                     else if (checkStack.top() == '{')
                         checkStack.pop();
-                    else //해당하는 괄호가 없는 경우 false 출력
+                    else
                         return false;
                     break;
                 case ']':
@@ -39,7 +39,7 @@ public:
                         return false;
                     else if (checkStack.top() == '[')
                         checkStack.pop();
-                    else //해당하는 괄호가 없는 경우 false 출력
+                    else
                         return false;
                     break;
             }
